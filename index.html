@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 4</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="flex-container">
+        <a href="/">
+            <img width="150" class="logo" src="assets/img/logo-sb-global.png">
+        </a>
+        <nav class="barra-navegacion">
+            <ul>
+                <a href="/mounstruos.html"><li>Mounstruos</li></a>
+                <a href="/armaduras.html"><li>Armaduras</li></a>
+                <a href="/objetos.html"><li>Objetos</li></a>
+                <a href="/habilidades.html"><li>Habilidades</li></a>
+            </ul>
+        </nav>
+        <button type="submit" class="menu">Submit</button>
+    </header>
+    <section class="intro">
+    <h1>API de Monster Hunter Sunbreak</h1>
+    <p class="parrafo1">
+        API publica de Monster Hunter Sunbreak, esta API se creo con el fin de
+        apoyar a los desarrolladores latinoamericanos que quieran crear proyectos
+        de este juego.
+    </p>
+    <p class="promocional">
+        Base de datos del juego
+    </p>
+    <p class="negritas">
+        ¿Te gustaría colaborar? manda una solicitud <strong>aquí.</strong>
+    </p>
+    </section>
+    <div class="content-container">
+        <article class="video-container">
+            <video width="640" height="480" id="my-video" poster="assets/img/portada.jpeg">
+                <source src="assets/video/mh.mp4" type="video/mp4">
+            </video>
+            <div>
+                <button onclick="playPause()" class="media-buttons">&#9658;/|| </button>
+                <button onclick="stop()" class="media-buttons">&#9726; </button>
+                <button onclick="skip(-5)" class="media-buttons">&lt;&lt; </button>
+                <button onclick="skip(5)" class="media-buttons">&gt;&gt; </button>
+            </div>
+            <img class="flecha"
+                src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png" />
+            <p style="margin-right: 180px;">Mira el trailer de lanzamiento.</p>
+        </article>
+        <article class="texto-video">
+            <h1 class="titulo">Monster Hunter Rise: Sunbreak</h1>
+            <p class="parrafo">El juego va a tener su ultima actualización mañana a las 7 am a ver que pex.<br>
+                Se espera que anuncien la variante de Malzeno y a ver si se ve algo más.
+            </p>
+            <p class="texto-inferior">Mantente atento a las redes oficiales de Capcom</p>
+        </article>
+    </div>
+
+    <script src="scripts/video.js"></script>
+
+    <p>¿Te gustaría suscribirte para obtener las ultimas actualizaciones del proyecto? Unete con solo tu email.</p>
+    <form>
+        <label>Correo electrónico</label>
+        <input type="email">
+        <button type="submit" class="join">Unirme.</button>
+    </form>
+    </div>
+    <section class="container-publicidad">
+        <div class="publicidad">
+            <h1 class="titulo-publicidad">¿Te gustaría expandir este proyecto a otras entregas de la saga?</h1>
+            <p class="texto-pub">Si este proyecto recibe el suficiente apoyo de la comunidad, se desarrollará una API publica de MHGU.</p>
+        </div>
+        <div class="mhgu">
+            <img src="assets/img/genu.jpg" class="gen-u-image">
+            <p class="texto-pub">Con tu apoyo podremos lograrlo.</p>
+        </div>
+    </section>
+    <section class="grid-container">
+        <div class="cars">
+            <article class="car car1">
+                <h1 class="car-title">Juega con amigos</h1>
+                <p class="car-text">Juega en donde estés con tus amigos y con la comunidad tan grande que tiene Monster Hunter.</p>
+                <img src="assets/img/multiplayer.jpg" width="95%">
+            </article>
+            <article class="car car2">
+                <h1 class="car-title">Reune materiales</h1>
+                <p class="car-text">Con el sistema de obtención de materiales, puedes pasar horas de diversión.</p>
+                <img src="assets/img/materials.png" width="95%">
+            </article>
+            <article class="car car3">
+                <h1 class="car-title">Ayuda a la comunidad</h1>
+                <p class="car-text">Siempre habrá alguien dispuesto a ayudarte si vas comenzando, y por qué no, tú también podrías ayudar a los novatos.</p>
+                <img src="assets/img/999.jpg" width="95%">
+            </article>
+            <article class="car car4">
+                <h1 class="car-title">Caza mounstruos aterradores</h1>
+                <p class="car-text">Y como su nombre lo dice, te enfrentarás a muchos mounstruos con diseños asombrosos.</p>
+                <img src="assets/img/gaismagorn.jpg" width="95%">
+            </article>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
